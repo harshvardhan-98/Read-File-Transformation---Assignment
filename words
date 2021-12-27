@@ -1,0 +1,5 @@
+Here is the Java program to find the duplicate word which has occurred a maximum number of times in a file. You can also print the frequency of words from highest to lowest because you have the Map, which contains the word and their count in sorted order. All you need to do is iterate over each entry of Map and print the keys and values.
+
+The most important part of this solution is sorting all entries. Since Map.Entry doesn't implement the Comparable interface, we need to write our own custom Comparator to sort the entries.
+
+
